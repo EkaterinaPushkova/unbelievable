@@ -14,14 +14,15 @@ let imgs = new Array(
     'images/w10.jpg');
 image.src = imgs[0];
 let i = 1;
-function changeImgs(){
+let interval = setInterval( function changeImgs(){
     image.src = imgs[i];
-    console.log(i);
+    // console.log(i);
     i++;
-    console.log(imgs.length);
+    // console.log(imgs.length);
     if (i === imgs.length){
         i = 0;
     }
-}
+}, 2000 )
+
 
 

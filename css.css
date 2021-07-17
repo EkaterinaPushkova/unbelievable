@@ -4,7 +4,7 @@ body {
     font-family: 'Yantramanav', sans-serif;
     font-size: 14px;
     font-weight: 300;
-    color: #242222;
+    color: #ffffff;
     text-transform: uppercase;
     background-color: #222020;
 }
@@ -29,12 +29,13 @@ body {
     
 }
 .header__logo {
-    font-size: 50px;
+    font-size: 80px;
+    font-weight: 580;
     text-shadow: #f7f7f7 3px 3px 0px;
     
 }
 .header__inner {
-    padding: 15px 0;
+    padding: 10px 0;
     display: flex;
     align-items:center;
     justify-content: space-between;
@@ -54,10 +55,10 @@ body {
 .nav__link {
     margin-left: 75px;
     color: #feffdb;
-    font-weight: 700;
+    font-weight: 600;
     text-decoration: none;
     opacity: .65; 
-    transition: opacity .4s;
+    transition: opacity .4s;    
     /* transition: text-shadow .4s; */
 }
 .nav__link:first-child{
@@ -65,7 +66,7 @@ body {
 }
 .nav__link:hover{
     opacity: 1;
-    text-shadow: #f7f7f7 0 0 5px;
+    text-shadow: #ffffff 0 0 5px;
 }
 
 /*IMAGES
@@ -74,7 +75,7 @@ img {
     width: 100%;
     height: 500px;
     object-fit: cover;
-    object-position: bottom 0px;
+    object-position:center;
   }
 /* .cb-slideshow,
 .cb-slideshow:after {
