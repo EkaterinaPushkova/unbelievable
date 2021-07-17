@@ -70,10 +70,12 @@ body {
 
 /*IMAGES
 =====================*/
-
-.image {
-   
-}
+img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: bottom 0px;
+  }
 /* .cb-slideshow,
 .cb-slideshow:after {
     position: fixed;
